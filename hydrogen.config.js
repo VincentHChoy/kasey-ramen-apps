@@ -6,10 +6,10 @@ export default defineConfig({
     defaultLanguageCode: 'EN',
     storeDomain:
       // @ts-ignore
-      Oxygen?.env?.PUBLIC_STORE_DOMAIN || 'hydrogen-preview.myshopify.com',
+      Oxygen?.env?.PUBLIC_STORE_DOMAIN || 'kaseyramen-test.myshopify.com/',
     storefrontToken:
       // @ts-ignore
-      Oxygen?.env?.PUBLIC_STOREFRONT_API_TOKEN,
+      Oxygen?.env?.PUBLIC_STOREFRONT_API_TOKEN || "5192674c5e94a8414d14edac84cc04a6",
     privateStorefrontToken:
       // @ts-ignore
       Oxygen?.env?.PRIVATE_STOREFRONT_API_TOKEN,
